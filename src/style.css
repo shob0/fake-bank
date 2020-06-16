@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  margin: 1rem;
+}
+
+.nav {
+  width: 25%;
+}
+
+.invite-btn {
+  width: 10vw;
+  height: 40px;
+  background: linear-gradient(to right, #30d069, #2cbac0);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #203233;
+}
+
+.link-hover:hover {
+  border-bottom: 2px solid #30d069;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin: 1rem;
+}
+
+.hero-text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  transform: translateY(-50px);
+}
+
+.hero-image {
+  background-image: url("../images/bg-intro-desktop.svg");
+  width: 62vw;
+  background-position: 0 -260px;
+  text-align: right;
+}
+
+.hero-request {
+  margin-top: 1rem;
+}
+
+.mockup-image {
+  height: 100vh;
+  width: 70%;
+}
+
+.main {
+  background: #f4f5f7;
+  padding-top: 6rem;
+}
+.services {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+.service {
+  display: grid;
+  grid-template-rows: 30% 20% 50%;
+}
