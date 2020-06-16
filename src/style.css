@@ -61,7 +61,7 @@ a {
 }
 
 .hero-image {
-  background-image: url("../images/bg-intro-desktop.svg");
+  background-image: url("./images/bg-intro-desktop.svg");
   width: 62vw;
   background-position: 0 -260px;
   text-align: right;
